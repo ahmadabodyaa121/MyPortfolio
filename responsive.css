@@ -186,7 +186,10 @@
    
 /*-------------------*/
 header{
-    width: 490px;
+    width: 470px;
+}
+header nav{
+width: 70%;
 }
 .hero .hero-img{
     display: flex;
@@ -231,5 +234,6 @@ width: 280px;
     .hero .content .btn{
         margin-top: 20px;
     }
+
 }
 /*-------------------*/
