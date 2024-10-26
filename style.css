@@ -169,6 +169,21 @@ margin-left: 0px;}
 
 .hero-myimg {
     z-index: 100;
+    position: relative;
+   
+    
+    border-radius: 50%;
+   
+    animation: hero-img-animation 2s forwards;
+
+}
+@keyframes hero-img-animation {
+    0%{
+        transform: translateY(100px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
 }
 
 @keyframes bg-animation {
@@ -191,8 +206,6 @@ margin-left: 0px;}
 
     100% {
         transform: translateY(150px);
-
-
     }
 }
 
@@ -204,13 +217,18 @@ margin-left: 0px;}
 }
 
 .about .contanier {
+    margin-top: 20px;
     display: flex;
     justify-content: center;
+    
 }
 
 .about .about-img img {
-    width: 450px;
-    border-radius: 10px;
+  width: 450px;
+  height: 450px;
+  border-radius: 10px;
+  object-fit:fill;
+  object-position: center;
 }
 
 .about .content {
@@ -237,6 +255,7 @@ margin-left: 0px;}
     color: #444;
     line-height: 1.8;
     margin-bottom: 70px;
+    line-height: 2;
 }
 
 /* start Services */
@@ -541,4 +560,62 @@ margin-left: 0px;}
     .contact form input {
         width: 100%;
     }
+}
+
+/* popup */
+
+.contener_popup{
+    background-color: rgba(0, 0, 0, 0.795);
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+.contener_popup.active{
+    display: flex;
+}
+.popup{
+background-color: white;
+padding: 20px;
+border-radius: 5px;
+width: 400px;
+height: 150px;
+animation: popup 0.5s ease-in-out;
+position: relative;
+
+}
+.close{background-color: red;
+color: white;
+border: none;
+outline: none;
+cursor: pointer;
+padding: 5px 10px;
+
+}
+.popup_foter{
+    position: absolute;
+    bottom: 2px;
+    right: 5px;
+}
+.btn1{
+    background-color: blue;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+@keyframes popup{
+
+50%{transform: scale(1);}
+75%{transform: scale(1.5);}
+100%{transform: scale(1);}
+
+
+
 }
