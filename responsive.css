@@ -127,6 +127,7 @@
         top: 100%;
     }
 
+
     header nav .nav-links a {
         width: 100%;
         margin: auto;
@@ -160,6 +161,20 @@
 
     .boxs .box {
         width: 70%;
+        animation: box 1s linear;
+    }
+    @keyframes box{
+        0%{
+            transform: translateX(-50px);
+           
+        }
+        50%{
+            transform: translateX(-10px);
+           
+        }
+        100%{
+            transform: translateX(0px);
+        }
     }
 
     .contact form {
@@ -170,15 +185,26 @@
 @media(max-width:500px) {
    
 /*-------------------*/
-.hero-img .hero-img-bg{
-    width: 310px;
+header{
+    width: 490px;
+}
+.hero .hero-img{
+    display: flex;
+    justify-content: center;
+}
+.hero .hero-img img{
+    width: 280px;
+}
+.hero .hero-img-bg{
+width: 280px;
+
 }
 .about .about-img img{
-    width: 290px;
+    width: 90%;
 }
 .btn{
     padding: 10px 20px;
-    font-size: 12px;
+    font-size: 14px;
     width: 150px;
 }
     .contact form {
@@ -190,6 +216,20 @@
     .contact form input {
         width: 100%;
     }
+    .hero .content{
+        text-align: center;
+    }
+    .hero .content h1{
+        font-size: 30px;
+    }
+    .hero .content p{
+        font-size: 18px;
+    }
+    .hero .content .btn{
+        margin-top: 20px;
+    }
+    .hero .content .btn{
+        margin-top: 20px;
+    }
 }
-
 /*-------------------*/
