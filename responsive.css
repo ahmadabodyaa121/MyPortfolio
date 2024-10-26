@@ -3,7 +3,6 @@
 
 @media(max-width:1200px) {
     .contanier {
-        width: 90%;
     }
 
     .hero .content h1 {
@@ -186,10 +185,10 @@
    
 /*-------------------*/
 header{
-    width: 470px;
+    width: 450px;
 }
 header nav{
-width: 70%;
+width: 350px;
 }
 .hero .hero-img{
     display: flex;
