@@ -363,6 +363,23 @@ margin-left: 0px;}
     margin-bottom: 20px;
     border-radius: 10px;
 }
+.country{
+    width: 100%;
+    padding: 15px 10px;
+    outline: none;
+    border: 1px solid rgba(128, 112, 22, 0.3);
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+.country option{
+    display: flex;
+    align-items: center;
+}
+.country option i{
+    margin-left: 10px;
+    font-size: 20px;
+    color: #ffaa17;
+}
 
 .contact form textarea {
     border: 1px solid rgba(128, 112, 22, 0.3);
@@ -430,7 +447,43 @@ padding: 5px 10px;
     outline: none;
     cursor: pointer;
 }
+.whatsapp-support{
+    display: block;
 
+    
+    padding: 10px;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 20px;
+    left: 10px;
+    z-index: 1000;
+    margin-bottom: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}
+.whatsapp-support .fa-brands {
+    color: hsl(120, 85%, 46%);
+    font-size: 45px;
+    cursor: pointer;
+    margin-bottom: 50px;
+    border: none;
+    background: none;
+    outline: none;
+position: absolute;
+left: 10px;
+}
+.whatsapp-support:hover{
+    background-color: #1c1e22;
+    border-radius: 50%;
+}
+footer{
+    background-color: #1c1e22;
+    padding: 10px 0;
+    color: #fff;
+    font-size: 14px;
+}
 @keyframes popup{
 
 50%{transform: scale(1);}
