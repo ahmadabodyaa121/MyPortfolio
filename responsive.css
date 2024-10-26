@@ -240,6 +240,9 @@ width: 280px;
     .sec-top h1{
         font-size: 25px;
     }
+    .boxs .box{
+        box-shadow: 1px 1px 10px #000;
+    }
 
 
 }
