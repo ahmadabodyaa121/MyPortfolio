@@ -233,6 +233,15 @@ width: 280px;
     .hero .content .btn{
         margin-top: 20px;
     }
+    .portfolio .boxs .box{
+        width: 90%;
+        height: 250px;
+    }
+    .sec-top h1{
+        font-size: 25px;
+    }
+
 
 }
+   
 /*-------------------*/

@@ -297,6 +297,8 @@ margin-left: 0px;}
 
 /* start Portfolio */
 .portfolio .boxs .box {
+    width: 30%;
+    height: 300px;
     margin-bottom: 50px;
     position: relative;
     overflow: hidden;
@@ -305,6 +307,7 @@ margin-left: 0px;}
 .portfolio .boxs .box img {
     width: 100%;
     height: 100%;
+   
 }
 
 .portfolio .boxs .box:hover img {
