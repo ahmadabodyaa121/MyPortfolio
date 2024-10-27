@@ -159,7 +159,7 @@ margin-left: 0px;}
 }
 
 .hero-img-bg {
-    content: url(img/bg111.png);
+    content: url(img/bg111.webp);
     position: absolute;
     z-index: 0;
     animation: bg-animation 2s forwards;
